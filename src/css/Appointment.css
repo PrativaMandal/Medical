@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: o;
+}
+
+/***.appointment{
+    background-color: #d1e7dd;
+}
+.appointment-header{
+    text-align: center;
+   
+}
+.appointment-header h1{
+    color: black;
+}
+.appointment-header p{
+    color:#6c757d ;
+}
+.appointment-from{
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.appointment-from1{
+    display: flex;
+    justify-content: space-between;
+    text-wrap: wrap;
+
+}
+.appointment-from1 input[type="text"] {
+    width: 600px;
+    height: 40px;}
+
+
+
+
+
+
+    .appointment-from textarea {
+        width: 93%;
+        height: 90px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+       margin-bottom: 20px;
+       
+      }
+      
+      .appointment-from button {
+        width: 40%;
+        padding: 15px;
+        align-items: center;
+        margin-left: 150px;
+        background-color: #3fbbc0;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .appointment-from button:hover {
+        background-color: #4cc6ca;
+      }
+      
+      .appointment-from input:focus,
+      .appointment-from textarea:focus {
+        border-color:  #3fbbc0;
+        outline: none;
+      }
+      
+      .appointment-from input::placeholder,
+      .appointment-fromtextarea::placeholder {
+        color: #999;
+      }
+        ****/
+
+
+        .appointment {
+            padding: 40px;
+            background-color: #d1e7dd;
+        }
+        
+        .appointment-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .appointment-header h1 {
+            font-size: 32px;
+            color: #333;
+        }
+        
+        .appointment-header p {
+            font-size: 16px;
+            color: #666;
+        }
+        
+        .appointment-from {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .appointment-from1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+             width: 100%;
+            max-width: 800px;
+           
+        }
+        
+        .appointment-from1 input {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            transition: border-color 0.3s ease;
+        }
+
+.appointment-from textarea {
+        width: 70%;
+        height: 100px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        margin-top: 20px;
+       
+      }
+      
+      .appointment-from button {
+       width: 15%;
+        padding: 15px;
+        align-items: center;
+        margin-left: 150px;
+        background-color: #3fbbc0;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .appointment-from button:hover {
+        background-color: #4cc6ca;
+      }
+      
+      .appointment-from input:focus,
+      .appointment-from textarea:focus {
+        border-color:  #3fbbc0;
+        outline: none;
+      }
+      
+      .appointment-from input::placeholder,
+      .appointment-fromtextarea::placeholder {
+        color: #999;
+      }
+           
+        
+       /*** .appointment-from1 input:focus {
+            border-color: #009688;
+            outline: none;
+        }
+        
+        textarea {
+            width: 100%;
+            max-width: 800px;
+            padding: 12px;
+            font-size: 16px;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            resize: vertical;
+            transition: border-color 0.3s ease;
+        }
+        
+        textarea:focus {
+            border-color: #009688;
+            outline: none;
+        }
+        
+        button {
+            padding: 12px 40px;
+            background-color: #009688;
+            color: white;
+            font-size: 16px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        button:hover {
+            background-color: #00796b;
+        }***/
+        
+      
+      

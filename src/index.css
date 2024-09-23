@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.cont{
+  width: 900px;
+  margin: 0 auto;
+}
+
+
+.header{
+  background-color: #3fbbc0;
+ color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ height: 40px;
+ padding: 10px 50px;
+}
+
+
+/*****navbar****/
+/****style***/
+.navbar{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+ 
+  padding-left: 300px;
+  padding-right: 300PX;
+
+}
+.log h1{
+  color: #3fbbc0;
+
+font-size: 25px;
+
+}
+.log h1 span{
+   color: white;
+}
+.list ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  font-size: 12px;
+  padding-left: 250PX;
+}
+.list ul li:hover{
+  color:#3fbbc0;
+
+}
+.nav-btn button{
+  background-color: #3fbbc0 ;
+  height: 40px;
+  width: 180px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+.nav-btn button:hover{
+  background-color:#4cc6ca ;
+
+}
+/****footer**/
+
+  
+  .main {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+      margin: 0 auto;
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+      font-family: 'Arial', sans-serif;
+  }
+  
+  .day, .links, .services, .hic, .nobis {
+      flex: 1;
+      min-width: 180px;
+      margin: 20px;
+  }
+  
+  h1 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      
+  }
+  
+  ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  li {
+      margin-bottom: 10px;
+      color: #666;
+      font-size: 1rem;
+  }
+  
+  .day h1 {
+      color: #3fbbc0;;
+  }
+  
+  .day ul li:nth-child(1) {
+      font-weight: bold;
+  }
+  
+  .day ul li:nth-child(3),
+  .day ul li:nth-child(4) {
+      font-size: 0.9rem;
+  }
+  
+  .links ul li, 
+  .services ul li,
+  .hic ul li,
+  .nobis ul li {
+      cursor: pointer;
+  }
+  
+  .links ul li:hover, 
+  .services ul li:hover,
+  .hic ul li:hover,
+  .nobis ul li:hover {
+      color: #4cc6ca;
+      
+  }
+ /* Footer container styling */
+.last-footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #343a40;
+}
+
+
+.last-footer hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+
+.last-footer .first {
+  font-size: 14px;
+  color: #6c757d;
+  margin: 0;
+}
+
+.last-footer .first span {
+  color:#060707;
+  font-weight: bold;
+}
+
+.last-footer .second {
+  font-size: 12px;
+  color: #6c757d;
+  margin: 5px 0 0 0;
+}
+
+.last-footer .second span {
+  color:#3fbbc0;
+  font-weight: bold;
+}
+
+
+/***/
+/* Main service section */

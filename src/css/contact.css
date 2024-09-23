@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-page{
+   color: black;
+}
+.contact-page h1{
+    align-items: center;
+   text-align: center;
+    color: black;
+}
+.contact-page p{
+    align-items: center;
+    text-align: center;
+
+}
+.map{
+    margin-top: 80px;
+   
+}
+.map iframe {
+    width: 1850px;
+}
+
+.contact-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    padding: 50px 270px;
+  }
+
+
+
+ /** from**/
+ .contact-from {
+    background-color: #fff;
+   padding: 20px 30px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    width: 100%;
+    height: 365px;
+  }
+  
+  .nameemai {
+    display: flex;
+    gap: 20px; 
+  }
+  
+  .nameemai input {
+    flex: 1; 
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .contact-from input[type="text"] {
+
+    width: 50%;
+    height:45px ;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  .contact-from input[type="text"] {
+    width: 50%;
+
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  .contact-from input[type="subject"] {
+    width: 100%;
+    height:50px ;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .contact-from textarea {
+    width: 93%;
+    height: 90px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   margin-bottom: 20px;
+   
+  }
+  
+  .contact-from button {
+    width: 40%;
+    padding: 15px;
+    align-items: center;
+    margin-left: 150px;
+    background-color: #3fbbc0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-from button:hover {
+    background-color: #4cc6ca;
+  }
+  
+  .contact-from input:focus,
+  .contact-from textarea:focus {
+    border-color:  #3fbbc0;
+    outline: none;
+  }
+  
+  .contact-from input::placeholder,
+  .contact-from textarea::placeholder {
+    color: #999;
+  }
+  
+  
+
+/*****/
+ 
+
+
+/******/
+.contact-card{
+    width: 650px;
+    height: 380px ;
+  
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+
+.contact-box {
+  width: 100%;
+  max-width: 640px;
+  padding: 20px;
+  height: 180px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.contact-box1{
+    width: 80%;
+    max-width: 290px;
+    padding: 20px 1px;
+    height: 130px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-right: 20px;
+   
+}
+
+.icon1{
+    color: #3fbbc0;
+    font-size: 20px;
+    align-items: center;
+    padding: 18px 15px;
+}
+
+.icon-box1{
+    margin: 10px 280px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+   border: 2px dotted #3fbbc0;
+}
+
+.icon-box2{
+    margin: 10px 120px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+   border: 2px dotted #3fbbc0;
+}
+
+.contact-box h1, .contact-box1 h1{
+    text-align: center;
+    color:black;
+   
+ 
+   
+}
+.contact-box p, .contact-box1 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/******/
